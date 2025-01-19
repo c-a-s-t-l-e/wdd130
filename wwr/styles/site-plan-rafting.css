@@ -6,10 +6,10 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #2c3e50;   /* Deep blue */
-  --secondary-color: #3498db; /* Soft teal */
-  --accent1-color: #27ae60;   /* Muted green */
-  --accent2-color: #ecf0f1;   /* Light gray */
+  --primary-color: #2c3e50;   
+  --secondary-color: #3498db; 
+  --accent1-color: #27ae60;   
+  --accent2-color: #ecf0f1;   
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Montserrat";
