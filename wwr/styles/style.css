@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    background-color: #f4f9f4;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Page Container */
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #2e7d32;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Links */
+nav a {
+    text-align: center;
+    color: #ffffff; 
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+nav a:hover {
+    background-color: #1b5e20;
+    color: #f4f9f4;
+}
+
+/* Hero Section */
+
+.home-title {
+    color: #ffffff; 
+}
+
+h4 {
+    color: #ffffff;
+}
+
+#hero-msg h1,
+#hero-msg h4 {
+    text-align: center;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+/* Buttons */
+.button-box {
+    text-align: center;
+}
+
+.book,
+.join {
+    background-color: #388e3c;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.book:hover,
+.join:hover {
+    background-color: #1b5e20;
+    color: #f4f9f4;
+}
+
+/* Message Background */
+#background {
+    height: 725px;
+    background-color: #e8f5e9; 
+}
+
+/* Main Content */
+main section {
+    text-align: center;
+}
+
+.msg {
+    background-color: #e8f5e9; 
+}
+
+.msg h2 {
+    color: #2e7d32;
+}
+
+.msg p {
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #2e7d32;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+/* Icons and Logo */
+.logo,
+.icon {
+    width: 80px;
+}
