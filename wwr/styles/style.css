@@ -170,8 +170,9 @@ footer .social img {
     padding-top: 5px;
 }
 
-div {
-    padding-top: 50px;
+img.mountains {
+    position: relative;
+    top: 50px;        
 }
 
 .rivers-card,
