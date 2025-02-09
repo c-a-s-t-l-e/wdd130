@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap');
 
 body {
-    font-family: 'Lato', Arial, sans-serif;
-    font-size: 22px;
+    background-color: #f4f9f4;
     margin: 0;
     padding: 0;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 22px;
 }
 
 h2 {
@@ -31,6 +32,7 @@ nav a {
     padding: 35px;
     border-radius: 5px;
     margin: 0 5px;
+    font-family: 'Lato', Arial, sans-serif;
 }
 
 nav a:hover {
@@ -38,32 +40,11 @@ nav a:hover {
     color: #f4f9f4;
 }
 
-.home-title,
-.msg h2 {
-    font-family: 'Montserrat', Helvetica, sans-serif;
-}
-
 .home-title {
+    color: #2e7d32;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
-}
-
-.book,
-.join {
-    background-color: #388e3c;
-    color: #ffffff;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-
-.book:hover,
-.join:hover {
-    background-color: #1b5e20;
-    color: #f4f9f4;
 }
 
 .msg {
@@ -74,21 +55,46 @@ nav a:hover {
 
 .msg h2 {
     color: #2e7d32;
+    font-family: 'Montserrat', Helvetica, sans-serif;
     font-size: 2em;
 }
 
 .msg p {
     color: #333;
+    font-family: 'Lato', Arial, sans-serif;
     font-size: 0.8em;
     padding-bottom: 15px;
 }
 
-#logo_link {
-    padding-top: 5px;
+.book,
+.join {
+    background-color: #388e3c;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 50px;
 }
 
-.icon {
-    padding-top: 10px;
+.book:hover,
+.join:hover {
+    background-color: #1b5e20;
+    color: #f4f9f4;
+}
+
+.card-img {
+    border: 10px solid #388e3c;
+    border-radius: 5px;
+}
+
+main section {
+    text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 .rivers-card,
@@ -126,25 +132,4 @@ footer .social img {
 .icon {
     width: 80px;
     padding-top: 10px;
-}
-
-.card-img {
-    border: 10px solid #black;
-}
-
-main section img {
-    box-sizing: border-box;
-}
-
-#hero-msg h1,
-#hero-msg h4 {
-    text-align: center;
-}
-
-#hero-img {
-    width: 100%;
-}
-
-.button-box {
-    text-align: center;
 }
