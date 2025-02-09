@@ -170,10 +170,12 @@ footer .social img {
     padding-top: 5px;
 }
 
+#background {
+    padding-bottom: 50px;
+}
 
 .rivers-card,
 .camping-card,
 .rapids-card {
     margin: 200px 0;
 }
-
