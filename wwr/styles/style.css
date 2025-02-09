@@ -50,18 +50,14 @@ nav a:hover {
 
 .book,
 .join {
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-
-.book,
-.join {
     background-color: #388e3c;
     color: #ffffff;
     text-decoration: none;
     display: inline-block;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover,
@@ -133,8 +129,7 @@ footer .social img {
 }
 
 .card-img {
-    border: 10px solid #388e3c;
-    border-radius: 5px;
+    border: 10px solid #black;
 }
 
 main section img {
