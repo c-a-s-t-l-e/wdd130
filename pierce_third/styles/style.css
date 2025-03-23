@@ -2,18 +2,18 @@
 
 .home-grid {
   display: grid;
-  justify-content: center; /* Centers the main container horizontally */
+  justify-content: center; 
 }
 
 .home-grid h2 {
   text-align: center;
-  margin-bottom: 1rem; /* Adjust spacing as needed */
+  margin-bottom: 1rem;
 }
 
 .content-container {
-  display: flex; /* Keeps the two columns side by side */
-  max-width: 2400px; /* Adjust this width as needed */
-  margin: 0 auto; /* Centers the container horizontally */
+  display: flex;
+  max-width: 2400px; 
+  margin: 0 auto;
 }
 
 .left-column, .right-column {
@@ -28,28 +28,24 @@
   width: 50%;
 }
 
-/* Center images in the left column */
 .left-column .image-section {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Vertically stacks and centers content */
+  align-items: center;
 }
 
-/* Ensure images don't exceed column width */
 .left-column img {
-  max-width: 100%; /* Scales images to fit the column */
+  max-width: 100%; 
   height: auto;
 }
 
-/* Center right-column text blocks */
 .right-column {
-  text-align: left; /* Centers text and inline elements */
+  text-align: left;
 }
 
-/* General Styles */
 body {
     font-family: 'Lato', Arial, sans-serif;
-    background-color: #F9F5EB; /* Updated to Accent 2 for a light, neutral background */
+    background-color: #F9F5EB;
     margin: 0;
     font-size: 22px;
     padding: 0;
@@ -57,10 +53,9 @@ body {
 
 h2 {
     margin: 0;
-    color: #283618; /* Updated to Primary for headings */
+    color: #283618;
 }
 
-/* Page Container */
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -69,7 +64,7 @@ h2 {
 /* Header */
 header {
     font-family: 'Montserrat', Helvetica, sans-serif;
-    background-color: #283618; /* Updated to Primary for a strong, dark header */
+    background-color: #283618;
     padding: 20px;
     text-align: center;
     display: flex;
@@ -86,7 +81,7 @@ nav {
 /* Navigation Links */
 nav a {
     text-align: center;
-    color: #F9F5EB; /* Updated to Accent 2 for contrast against the dark header */
+    color: #F9F5EB;
     text-decoration: none;
     display: flex;
     justify-content: space-around;
@@ -96,8 +91,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #DDA15E; /* Updated to Secondary for a warm hover effect */
-    color: #283618; /* Updated to Primary for contrast on hover */
+    background-color: #DDA15E;
+    color: #283618;
 }
 
 /* Buttons */
@@ -107,8 +102,8 @@ nav a:hover {
 
 .book,
 .join {
-    background-color: #BC6C25; /* Updated to Accent 1 for a bold, eye-catching button */
-    color: #F9F5EB; /* Updated to Accent 2 for contrast */
+    background-color: #BC6C25;
+    color: #F9F5EB;
     font-size: 18px;
     text-decoration: none;
     padding: 15px 30px;
@@ -123,14 +118,14 @@ main section img {
 
 .book:hover,
 .join:hover {
-    background-color: #DDA15E; /* Updated to Secondary for a warm hover effect */
-    color: #283618; /* Updated to Primary for contrast on hover */
+    background-color: #DDA15E;
+    color: #283618;
 }
 
 /* Message Background */
 #background {
     height: 725px;
-    background-color: #F9F5EB; /* Updated to Accent 2 for a subtle, light background */
+    background-color: #F9F5EB;
 }
 
 /* Main Content */
@@ -140,8 +135,8 @@ main section {
 
 /* Footer */
 footer {
-    background-color: #283618; /* Updated to Primary for a strong, dark footer */
-    color: #F9F5EB; /* Updated to Accent 2 for contrast */
+    background-color: #283618;
+    color: #F9F5EB;
     text-align: center;
     padding: 25px 50px;
     margin-top: 200px;
@@ -155,13 +150,13 @@ footer p {
 }
 
 footer a {
-    color: #F9F5EB; /* Updated to Accent 2 for contrast */
+    color: #F9F5EB;
     text-decoration: none;
 }
 
 footer p a:hover {
     text-decoration: underline;
-    color: #DDA15E; /* Updated to Secondary for a warm hover effect */
+    color: #DDA15E;
 }
 
 footer .social img {
@@ -192,7 +187,7 @@ footer .social img {
 .card-img {
     border: 10px solid transparent;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #283618; /* Updated to Primary for a subtle shadow */
+    box-shadow: 5px 5px 10px #283618;
     margin: 20px;
 }
 
@@ -201,7 +196,7 @@ footer .social img {
     height: auto;
     border: 10px solid transparent;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #283618; /* Updated to Primary for a subtle shadow */
+    box-shadow: 5px 5px 10px #283618;
     margin: 20px;
 }
 
@@ -210,6 +205,6 @@ footer .social img {
     height: 300px;
     border: 10px solid transparent;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #283618; /* Updated to Primary for a subtle shadow */
+    box-shadow: 5px 5px 10px #283618;
     margin: 20px;
 }
